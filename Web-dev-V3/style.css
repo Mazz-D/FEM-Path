@@ -63,7 +63,7 @@
   text-decoration: underline;
 }
 .nav-item:nth-child(1){
-  background: blueviolet;
+  background: rgb(159, 151, 167);
 }
 .nav-item:nth-child(2){
   background: red;
