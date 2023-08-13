@@ -1,7 +1,8 @@
-Biz
-Img
+/Mazz-Anime
 /Fira_Code_v6.2
 *.png
+*.jpg
 ._.DS_Store
 *.txt
 .calculator.css
+*.code-workspace
