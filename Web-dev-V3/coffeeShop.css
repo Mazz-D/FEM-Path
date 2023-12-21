@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+
+.navBar{
+    background-color: brown;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 1em;
+    font-family: "open san", sans-serif;
+}
+.navBar:hover{
+    background-color: rgb(56, 139, 111);
+}
+
+
+  /* From FM*/
+  .example-group {
+    border-color: crimson;
+    padding: 8px;
+    border-radius: 1em;
+    position: relative;
+  }
+
+  .input-label {
+    background-color: white;
+    color: crimson;
+    font-size: 11px;
+    position: absolute;
+    left: 25px;
+    top: -7px;
+    padding: 0 2px;
+  }
+
+  .example-input{
+    background-color: red;
+    position: absolute;
+    border-radius: 1em;
+  }
+
+  .footer{
+    background-color: brown;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 1em;
+
+  }
