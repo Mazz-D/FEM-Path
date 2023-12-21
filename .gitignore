@@ -1,10 +1,6 @@
 /Fira_Code_v6.2/
-/myBlog-Brian/
 /02 FEM-CSS/
-/JS-Books/
-/jstdg7-master/
-/YDKJS/
+/03 FEM-Javascript/
 *.txt
-*.jpg
-*.png
+*.DS_Store
 *.code-workspace 
