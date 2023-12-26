@@ -78,8 +78,8 @@ body {
 }
 
 body {
-  padding: 0;
-  margin: 0;
+  padding: 5em;
+  margin: 2em;
 }
 
 .calc {
@@ -124,16 +124,16 @@ body {
 }
 
 .calc-button:last-child {
-  background-color: #37ddb9;
+  background-color: #dd3737;
   color: white;
 }
 
 .calc-button:last-child:hover {
-  background-color: #37ddb9;
+  background-color: #dd3737;
 }
 
 .calc-button:last-child:active {
-  background-color: #37ddb9;
+  background-color: #dd3737;
 }
 
 .calc-button-row {
