@@ -22,9 +22,15 @@ body{
   grid-template-columns: 1fr 1fr;;
 }
 
+<<<<<<< HEAD
 .main-nav{
     background: linear-gradient(to left, green, white, green);
     color: black;
+=======
+.nav-Bar{
+    background: #fffced;
+    color: #fbf2c0;
+>>>>>>> 679ad815ff78212412a04f29ebd29468062990c5
     font-size: 16px;
     display: flex;
     align-items: center;
