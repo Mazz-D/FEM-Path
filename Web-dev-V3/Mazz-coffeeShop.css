@@ -6,10 +6,10 @@ body{
   margin: 0;
   padding: 0x;
   font-family: 'Open Sans', sans-serif;
-  background-color: rgb(71, 200, 233);
+  background: linear-gradient(to right, green, white , green );
 }
 
-.body-page{
+.page{
   display: grid;
   row-gap: 30px;
   column-gap: 30px;
@@ -17,19 +17,19 @@ body{
   padding: 30px;
   margin: 0 auto;
   grid-template-areas:
-    "order-section payment-section"
-    "total-footer total-footer";
+  "order payment"
+  "total total";
   grid-template-columns: 1fr 1fr;;
 }
 
-.nav-Bar{
-     background-color: #43281c;
-    color: #fbf2c0;
+.main-nav{
+    background: linear-gradient(to left, green, white, green);
+    color: black;
     font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: normal;
+    font-weight: bold;
 }
 .logo{
   height: 25px;
@@ -38,9 +38,9 @@ body{
 }
 
 .box{
-  background-color: #e6ccb5;
+  background: #fffced;
   border-radius: 5px;
-  box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+  box-shadow: 0 1px 3px rgba(84, 180, 204, 0.2);
   padding: 15px;
   margin-bottom: 20px;
   width: 100%;
@@ -49,4 +49,133 @@ body{
   color: #88792d;
   font-weight: normal;
   font-size: 18px;
+}
+
+.order{
+  grid-area: order;
+}
+
+.payment{
+  grid-area: payment;
+}
+
+.total{
+  grid-area: total;
+}
+
+.items{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item{
+  border-bottom: 3px solid #DDB850;
+  display: grid;
+
+  padding: 10px 0;
+
+  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-areas: 
+  "quantity title price"
+  "quantity options price";
+
+  row-gap: 10px;
+
+}
+
+.item:last-child{
+  border-bottom: none;
+}
+
+.item-quantity{
+  grid-area: quantity;
+  font-weight: bold;
+  color: goldenrod;
+}
+
+.item-title{
+  grid-area: title;
+  font-weight: bold;
+}
+
+.item-price{
+  grid-area: price;
+  font-weight: bold;
+}
+
+.item-options-list{
+  grid-area: options;
+  list-style: none;
+  color: purple;
+}
+
+.item-option{
+  margin-bottom: 5px;
+}
+
+.input-group{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.user-input{
+  background: rgba(216, 36, 36, 0);
+  border: 2px rgb(240, 153, 66) solid;
+  padding: 8px;
+  border-radius: 100px;
+  width: 100%;
+  text-indent: 20px;
+  font-size: 20px;
+}
+
+.user-input-label{
+  color:black;
+  background-color: whitesmoke;
+  font-size: 11px;
+  position: absolute;
+  left: 25px;
+  top: -7px;
+  padding: 0 2px;
+}
+
+.short-input{
+  max-width: 200px;
+}
+
+.total{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.totals-table{
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
+.totals-table td{
+  padding: 10px;
+}
+
+.totals-table td:last-child{
+  text-align: right;
+}
+
+.final-totals{
+  font-weight: bold;
+  color: red;
+}
+
+.checkout{
+  background-color: rgb(102, 239, 214);
+  border: none;
+  padding: 10px 30px;
+  width: 100%;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
 }

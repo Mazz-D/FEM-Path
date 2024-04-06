@@ -1,96 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Mazz-Coffee-FEM</title>
     <linK href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="Mazz-coffeeShop.css">
-</head>
-
-<body>
-    <nav class="navBar">
-        <h1 class="mazz-coffee">
-            <img src="coffee_masters_logo.png" alt="Brand-logo" class="logo">
+    <link rel="stylesheet" href="Mazz-coffeeShop.css"/>
+  </head>
+    <body>
+    <nav class="main-nav">
+      <h1 class="brand">
+        <img 
+          src="coffee_masters_logo.png" alt="Brand-logo" class="logo"/>
             Coffee Masters-LD MAZZ D
         </h1>
-    </nav>
-
-    <div class="body-page">
-        <section class="order-section box"class="items"> 
-            <h1 class="box-title">ITEMS</h1>
-            <ui class="items">
-              <li class="item">
-                <div class="item-quantity">1x</div>
-                <div class="item-name">Cappucino</div>
-                <div class="item-price">$3.35</div>
-                <ul class="item-option-list">
-                    <li class="item-option">Light Foam</li>
-                <li class="item">
-                    <div class="item-quantity">1x</div>
-                    <div class="item-name">Cappucino</div>
-                    <div class="item-price">$2.55</div>
-                    <ul class="item-option-list">
-                     <li class="item-option">Almond Milk Double Espresso Shot</li>
-                    </ul>
-              </li>
-              <li class="class">
-                <div class="item-quantity">1x</div>
-                <div class="item-name">Cappucino</div>
-                <div class="item-price">$1.55</div>
-                <ul class="item-option-list">
-                    <li class="item-option">Butter</li>
-            </ui>
-        </section>
-        
-        <section class="payment-section box">
-             <div class="section-2-box">
-                <h1 class="box-title">NAME</h1>
-                <div class="pay-inner-input">
-                    <label class="pay-name" for="name">Name for order</label>
-                    <input type="text" class="pay-input" id="name"/>
-                </div>
-             </div>
-            <div class="payment">
-                <h1 class="box-title">PAYMENT</h1>
-               <div class="pay-inner-input">
-                <label for="cc" class="user-inout-label">Card number</label>
-                <input type="text"  class="pay-input" id="cc"/>
-                 </div>
-                 <div class="pay-inner-input">
-                <label for="ccv" class="user-inout-label">CCV Number</label>
-                <input type="text"  class="pay-input short-pay-input" id="ccv"/>
-                 </div>
-            </div>
-        </section>
-
-        <section class="total-footer">
-            <table class="totals-table">
-                <tbody>
-                  <tr>
-                    <td>Subtotal:</td>
-                    <td>$19.27</td>
-                  </tr>
-                  <tr>
-                    <td>Tax:</td>
-                    <td>$0.96</td>
-                  </tr>
-                  <tr class="final-totals">
-                    <td>Total:</td>
-                    <td>$20.23</td>
-                  </tr>
-                </tbody>
-              </table>
-              <button class="checkout" type="button">Place order</button>
-        </section>
-
+      </nav>
+    <div class="page">
+      <section class="order box"> 
+        <h2 class="box-title">ITEMS</h2>
+        <ul class="items">
+          <li class="item">
+           <div class="item-quantity">2x</div>
+           <div class="item-title">Mango Cappucino</div>
+           <div class="item-price">$50.00</div>
+           <ul class="item-options-list">
+            <li class="item-option">Light Foam</li>
+           </ul>
+          </li>
+          <li class="item">
+            <div class="item-quantity">3x</div>
+            <div class="item-title">Double Cappucino</div>
+            <div class="item-price">$20.55</div>
+            <ul class="item-options-list">
+              <li class="item-option">Almond Milk</li> 
+              <li class="item-option"> Espresso Shot</li>
+            </ul>
+          </li>
+          <li class="item">
+            <div class="item-quantity">5x</div>
+            <div class="item-title">Croissant</div>
+            <div class="item-price">$71.55</div>
+            <ul class="item-options-list">
+              <li class="item-option">Butter</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="payment">
+        <div class="name-box box">
+          <h2 class="box-title">NAME</h2>
+          <div class="input-group">
+            <label class="user-input-label" for="name">Name for order</label>
+            <input type="text" class="user-input" id="name"/>
+          </div>
+        </div>
+        <div class="cc-box box">
+         <h2 class="box-title">PAYMENT</h2>
+        <div class="input-group">
+          <label for="cc" class="user-input-label">Card number</label>
+          <input type="text"  class="user-input" id="cc"/>
+        </div>
+        <div class="input-group">
+          <label for="ccv" class="user-input-label">CCV Number</label>
+          <input type="text"  class="user-input short-input" id="ccv"/>
+        </div>
+      </div>
+      </section>
+      <section class="total">
+        <table class="totals-table">
+          <tbody>
+            <tr>
+              <td>Subtotal:</td>
+              <td>$19.27</td>
+            </tr>
+            <tr>
+              <td>Tax:</td>
+              <td>$0.96</td>
+            </tr>
+            <tr class="final-totals">
+              <td>Total:</td>
+              <td>$20.23</td>
+            </tr>
+          </tbody>
+        </table>
+        <button class="checkout" type="button">Place order</button>
+      </section>
     </div>
-
-
-
-
-</body>
-
+  </body>
 </html>
