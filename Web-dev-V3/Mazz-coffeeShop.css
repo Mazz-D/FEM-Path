@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0x;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(71, 200, 233);
+}
+
+.body-page{
+  display: grid;
+  row-gap: 30px;
+  column-gap: 30px;
+  width: 100%;
+  padding: 30px;
+  margin: 0 auto;
+  grid-template-areas:
+    "order-section payment-section"
+    "total-footer total-footer";
+  grid-template-columns: 1fr 1fr;;
+}
+
+.nav-Bar{
+    background: #fffced;
+    color: #fbf2c0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+.logo{
+  height: 25px;
+  position: relative;
+  top: 3px;
+}
+
+.box{
+  background-color: #e6ccb5;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.box-title{
+  color: #88792d;
+  font-weight: normal;
+  font-size: 18px;
+}
