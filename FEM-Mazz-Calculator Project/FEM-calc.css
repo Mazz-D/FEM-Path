@@ -10,7 +10,6 @@ body {
 .calc {
     width: 400px;
     background: black;
-    color: silver;
 }
 
 .screen {
@@ -27,7 +26,7 @@ body {
     color: red;
     height: 100px;
     width: 24.5%;
-    border:none;
+    border: none;
     border-radius: 0;
     font-size: 40px;
     cursor: pointer ;
